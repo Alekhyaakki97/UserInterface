@@ -1,0 +1,175 @@
+{
+	"variables": [],
+	"info": {
+		"name": "express-app",
+		"_postman_id": "913d60d6-a899-6af2-27ee-22fc8d5fbaf0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "users",
+			"request": {
+				"url": "http://localhost:8000/users",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "articles",
+			"request": {
+				"url": "http://localhost:8000/articles",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"url": "http://localhost:8000/users/62a7f2f3817da1d61ff50107",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "articles",
+			"request": {
+				"url": "http://localhost:8000/articles/62a7f3a0817da1d61ff5010d",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"url": "http://localhost:8000/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"user\", \"email\": \"user@gmail.com\", \"password\": \"password\", \"bio\": \"bio\"}"
+				},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "articles",
+			"request": {
+				"url": "http://localhost:8000/articles",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"heading\": \"heading\", \"content\": \"content\", \"author\": \"62a7f2f3817da1d61ff50107\"}"
+				},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"url": "http://localhost:8000/users/62a7f2f3817da1d61ff50107",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"newusername\", \"email\": \"newemail@gmai.com.com\", \"password\": \"newpassword\" }"
+				},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "articles",
+			"request": {
+				"url": "http://localhost:8000/articles/62a7f3a0817da1d61ff5010d",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"heading\": \"newheading\", \"content\": \"newcontent\"}"
+				},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"url": "http://localhost:8000/users/62a7f2f3817da1d61ff50107",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "users"
+			},
+			"response": []
+		},
+		{
+			"name": "articles",
+			"request": {
+				"url": "http://localhost:8000/articles/62a7d2cd6a9e5050a53b8920",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "users"
+			},
+			"response": []
+		}
+	]
+}
